@@ -105,7 +105,7 @@ submitBtn.addEventListener("click",() => {
    if(currentQuiz < quizData.length){
       loadQuiz();
    }   else {
-        quiz.innerHTML = `<h2>     ${score}/${quizData.length} </h2>   <button onclick = "location.reload()"> Retry</button>`;
+        quiz.innerHTML = `<h2> You Scored ${score}/${quizData.length} Questions Correctly </h2>   <button onclick = "location.reload()"> Retry</button>`;
      }
   }
 });
